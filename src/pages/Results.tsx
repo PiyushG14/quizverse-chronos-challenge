@@ -1,19 +1,18 @@
-
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Trophy, Clock, Target, Home, RotateCcw, Share2, Flag, Cricket, Film, History } from 'lucide-react';
+import { Trophy, Clock, Target as TargetIcon, Home, RotateCcw, Share2, Flag, Target, Film, History } from 'lucide-react';
 
 const categoryIcons = {
-  countries: Flag,
-  cricket: Cricket,
-  cinema: Film,
-  history: History
+  category1: Flag,
+  category2: Target,
+  category3: Film,
+  category4: History
 };
 
 const categoryColors = {
-  countries: 'from-blue-500 to-cyan-500',
-  cricket: 'from-green-500 to-emerald-500',
-  cinema: 'from-purple-500 to-pink-500',
-  history: 'from-orange-500 to-red-500'
+  category1: 'from-blue-500 to-cyan-500',
+  category2: 'from-green-500 to-emerald-500',
+  category3: 'from-purple-500 to-pink-500',
+  category4: 'from-orange-500 to-red-500'
 };
 
 const Results = () => {
@@ -108,7 +107,7 @@ const Results = () => {
                 </div>
                 <div className="text-center">
                   <div className="bg-white bg-opacity-20 rounded-xl p-4">
-                    <Target className="w-8 h-8 mx-auto mb-2 text-green-400" />
+                    <TargetIcon className="w-8 h-8 mx-auto mb-2 text-green-400" />
                     <div className="text-2xl font-bold text-white">{accuracy}%</div>
                     <div className="text-sm text-gray-300">Accuracy</div>
                   </div>

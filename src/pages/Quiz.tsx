@@ -1,21 +1,20 @@
-
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Clock, Flag, Cricket, Film, History } from 'lucide-react';
+import { Clock, Flag, Target, Film, History } from 'lucide-react';
 import { getQuestionsByCategory } from '../data/questions';
 
 const categoryIcons = {
-  countries: Flag,
-  cricket: Cricket,
-  cinema: Film,
-  history: History
+  category1: Flag,
+  category2: Target,
+  category3: Film,
+  category4: History
 };
 
 const categoryColors = {
-  countries: 'from-blue-500 to-cyan-500',
-  cricket: 'from-green-500 to-emerald-500',
-  cinema: 'from-purple-500 to-pink-500',
-  history: 'from-orange-500 to-red-500'
+  category1: 'from-blue-500 to-cyan-500',
+  category2: 'from-green-500 to-emerald-500',
+  category3: 'from-purple-500 to-pink-500',
+  category4: 'from-orange-500 to-red-500'
 };
 
 const Quiz = () => {

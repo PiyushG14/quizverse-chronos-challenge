@@ -10,7 +10,7 @@ export interface CategoryQuestions {
 }
 
 const questions: CategoryQuestions = {
-  countries: [
+  category1: [
     {
       question: "Which country has the most time zones?",
       choices: ["USA", "France", "Russia", "China"],
@@ -60,34 +60,9 @@ const questions: CategoryQuestions = {
       question: "What is the highest mountain in Africa?",
       choices: ["Mount Kenya", "Mount Kilimanjaro", "Atlas Mountains", "Drakensberg"],
       answer: "Mount Kilimanjaro"
-    },
-    {
-      question: "Which country is known as the Hermit Kingdom?",
-      choices: ["Myanmar", "North Korea", "Bhutan", "Nepal"],
-      answer: "North Korea"
-    },
-    {
-      question: "What is the largest island country in the world?",
-      choices: ["Madagascar", "Sri Lanka", "Indonesia", "Philippines"],
-      answer: "Indonesia"
-    },
-    {
-      question: "Which country has the most official languages?",
-      choices: ["India", "South Africa", "Switzerland", "Zimbabwe"],
-      answer: "Zimbabwe"
-    },
-    {
-      question: "What is the driest desert in the world?",
-      choices: ["Sahara", "Gobi", "Atacama", "Kalahari"],
-      answer: "Atacama"
-    },
-    {
-      question: "Which country invented pizza?",
-      choices: ["Greece", "Italy", "Turkey", "France"],
-      answer: "Italy"
     }
   ],
-  cricket: [
+  category2: [
     {
       question: "Who holds the record for the highest individual score in Test cricket?",
       choices: ["Brian Lara", "Matthew Hayden", "Virender Sehwag", "Kumar Sangakkara"],
@@ -137,34 +112,9 @@ const questions: CategoryQuestions = {
       question: "In which city is the Lord's Cricket Ground located?",
       choices: ["Manchester", "Birmingham", "London", "Leeds"],
       answer: "London"
-    },
-    {
-      question: "What is a hat-trick in cricket?",
-      choices: ["3 runs in 3 balls", "3 wickets in 3 consecutive balls", "3 sixes in an over", "3 catches in an over"],
-      answer: "3 wickets in 3 consecutive balls"
-    },
-    {
-      question: "Who scored the fastest century in ODI cricket?",
-      choices: ["AB de Villiers", "Corey Anderson", "Shahid Afridi", "Chris Gayle"],
-      answer: "AB de Villiers"
-    },
-    {
-      question: "What is the highest team score in ODI cricket?",
-      choices: ["481/6", "498/4", "444/3", "434/4"],
-      answer: "498/4"
-    },
-    {
-      question: "Which bowler has the best bowling figures in a Test match innings?",
-      choices: ["Jim Laker", "Anil Kumble", "Muttiah Muralitharan", "Shane Warne"],
-      answer: "Jim Laker"
-    },
-    {
-      question: "What is the Duckworth-Lewis method used for?",
-      choices: ["Calculating run rate", "Rain-affected matches", "Powerplay overs", "Wicket decisions"],
-      answer: "Rain-affected matches"
     }
   ],
-  cinema: [
+  category3: [
     {
       question: "Who is known as the 'King of Bollywood'?",
       choices: ["Amitabh Bachchan", "Shah Rukh Khan", "Salman Khan", "Aamir Khan"],
@@ -214,34 +164,9 @@ const questions: CategoryQuestions = {
       question: "Who directed the movie '3 Idiots'?",
       choices: ["Rajkumar Hirani", "Aamir Khan", "Vidhu Vinod Chopra", "Karan Johar"],
       answer: "Rajkumar Hirani"
-    },
-    {
-      question: "Which was the highest-grossing Indian film of 2019?",
-      choices: ["War", "Kabir Singh", "Uri: The Surgical Strike", "Avengers: Endgame"],
-      answer: "War"
-    },
-    {
-      question: "Who played the role of Mogambo in 'Mr. India'?",
-      choices: ["Pran", "Amrish Puri", "Shakti Kapoor", "Kader Khan"],
-      answer: "Amrish Puri"
-    },
-    {
-      question: "Which film marked Hrithik Roshan's debut as an actor?",
-      choices: ["Kaho Naa... Pyaar Hai", "Mission Kashmir", "Fiza", "Koi... Mil Gaya"],
-      answer: "Kaho Naa... Pyaar Hai"
-    },
-    {
-      question: "Who is the director of the movie 'Dangal'?",
-      choices: ["Nitesh Tiwari", "Rajkumar Hirani", "Imtiaz Ali", "Zoya Akhtar"],
-      answer: "Nitesh Tiwari"
-    },
-    {
-      question: "Which actress won the National Film Award for 'Queen'?",
-      choices: ["Deepika Padukone", "Priyanka Chopra", "Kangana Ranaut", "Vidya Balan"],
-      answer: "Kangana Ranaut"
     }
   ],
-  history: [
+  category4: [
     {
       question: "Who was the first President of India?",
       choices: ["Jawaharlal Nehru", "Dr. Rajendra Prasad", "Dr. S. Radhakrishnan", "Mahatma Gandhi"],
@@ -291,31 +216,6 @@ const questions: CategoryQuestions = {
       question: "In which year was the Berlin Wall torn down?",
       choices: ["1987", "1988", "1989", "1990"],
       answer: "1989"
-    },
-    {
-      question: "Who wrote the Indian National Anthem?",
-      choices: ["Rabindranath Tagore", "Bankim Chandra Chattopadhyay", "Sarojini Naidu", "Subramanya Bharathi"],
-      answer: "Rabindranath Tagore"
-    },
-    {
-      question: "Which ancient civilization built Machu Picchu?",
-      choices: ["Aztecs", "Mayans", "Incas", "Olmecs"],
-      answer: "Incas"
-    },
-    {
-      question: "Who was the first woman Prime Minister of India?",
-      choices: ["Sarojini Naidu", "Indira Gandhi", "Sucheta Kripalani", "Vijaya Lakshmi Pandit"],
-      answer: "Indira Gandhi"
-    },
-    {
-      question: "In which year did the Jallianwala Bagh massacre take place?",
-      choices: ["1918", "1919", "1920", "1921"],
-      answer: "1919"
-    },
-    {
-      question: "Who founded the Mauryan Empire?",
-      choices: ["Ashoka", "Chandragupta Maurya", "Bindusara", "Bimbisara"],
-      answer: "Chandragupta Maurya"
     }
   ]
 };

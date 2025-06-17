@@ -1,39 +1,39 @@
 
 import { useNavigate } from 'react-router-dom';
-import { Flag, Cricket, Film, History } from 'lucide-react';
+import { Flag, Target, Film, History } from 'lucide-react';
 
 const categories = [
   {
-    id: 'countries',
-    title: 'Countries',
+    id: 'category1',
+    title: 'Category 1',
     icon: Flag,
     emoji: '🌍',
     color: 'from-blue-500 to-cyan-500',
-    description: 'Test your geography knowledge'
+    description: 'Test your knowledge'
   },
   {
-    id: 'cricket',
-    title: 'Cricket',
-    icon: Cricket,
-    emoji: '🏏',
+    id: 'category2',
+    title: 'Category 2',
+    icon: Target,
+    emoji: '🎯',
     color: 'from-green-500 to-emerald-500',
-    description: 'Challenge your cricket expertise'
+    description: 'Challenge yourself'
   },
   {
-    id: 'cinema',
-    title: 'Indian Cinema',
+    id: 'category3',
+    title: 'Category 3',
     icon: Film,
     emoji: '🎬',
     color: 'from-purple-500 to-pink-500',
-    description: 'Bollywood and beyond'
+    description: 'Explore and learn'
   },
   {
-    id: 'history',
-    title: 'History',
+    id: 'category4',
+    title: 'Category 4',
     icon: History,
     emoji: '📜',
     color: 'from-orange-500 to-red-500',
-    description: 'Journey through time'
+    description: 'Discover more'
   }
 ];
 
